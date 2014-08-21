@@ -10,5 +10,19 @@
   <modules>
     <module>akka-mapreduce-java</module>
     <module>akka-mapreduce-scala</module>
+    <module>hello-akka</module>
   </modules>
+  <dependencies>
+  	<dependency>
+	  <groupId>com.typesafe.akka</groupId>
+	  <artifactId>akka-actor_2.10</artifactId>
+	  <version>2.3.5</version>
+	</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
