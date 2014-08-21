@@ -1,0 +1,13 @@
+logs
+target
+tmp
+.history
+dist
+*.classpath
+*.project
+/.settings
+./*/.settings
+/.target
+/bin
+*.prefs
+*.cache
